@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="author" content="Diego Ignacio Alvial Arrepol">
+
+  <!-- Título LotaTravel -->
+  <title>LotaTravel</title>
+
+  <!-- CDN Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- CSS LotaTravel -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts Monstserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Icons Kit Fontawesome -->
+  <script src="https://kit.fontawesome.com/2713a90b35.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark p-md-3 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/img/lt.png" alt="logoLT" width="200" height="160"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white p-4" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle p-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tour</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">City Tour</a></li>
+              <li><a class="dropdown-item" href="#">Chiflón del Diablo</a></li>
+              <li><a class="dropdown-item" href="#">Parque Isidora Cousiño</a></li>
+              <li><a class="dropdown-item" href="#">Hidroeléctrica</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Colcura</a></li>
+              <li><a class="dropdown-item" href="#">Chivilingo</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white p-4" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white p-4" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- Carousel -->
+  <div id="carouselInicio" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+          <img src="/img/DSC_0016.jpg" class="img-fluid" alt="casas">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h4>VIVE EL RECUERDO</h4>
+          <p>de la familia que fue el sustento para Chile.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+          <img src="/img/70330985_1312663478905424_2050592703380455424_n.jpg" class="img-fluid" alt="bahia">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h4>VIAJA A LAS PROFUNDIDADES</h4>
+          <p>del pasado escrito por los hombres del carbón.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+          <img src="/img/DSC_0181.jpg" class="img-fluid" alt="cerro">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h4>DESCUBRE LA HISTORIA</h4>
+          <p>y se parte de ella.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Teatro -->
+  <div class="row lota">
+    <div class="col">
+      <h2>SELLO</h2>
+      <p>Te llevamos a conocer los rincones de nuestra historia, para que vivas los momentos más memorables de la ciudad que fue el sustento para Chile.</p>
+      <button type="button" class="btn btn-outline-secondary">Nuestra Historia</button>
+    </div>
+    <div class="col teatro"></div>
+  </div>
+
+  <!-- Galeria -->
+  <div style="padding:0;" class="row galeria">
+    <div style="padding:0; width: 58.33%;" class="grilla">
+      <div class="zoom7">
+        <figure>
+          <a href="#"><img src="/img/70293981_415132982692069_5924486611180978176_n.jpg" alt="roca">
+          <figcaption>
+            <p>INCREIBLE EXPERIENCIA</p></a>
+            <a style="font-size: 6vh;" href="#">VIDA</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div style="padding:0; width: 41.67%;" class="grilla">
+      <div class="zoom5">
+        <figure>
+          <a href="#"><img src="/img/69768187_492631298228700_101649033944104960_n.jpg" alt="plaza"></a>
+          <figcaption>
+            <a href="#">Conócenos</a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="zoom5">   
+        <figure>
+          <a href="#"><img src="/img/DSC_0131.jpg" alt="pieza"></a>
+          <figcaption>
+            <a href="#">Experiencia</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mensaje -->
+  <div class="d-flex align-items-center justify-content-center mensaje">
+    <p>Vivirás un viaje a las entrañas de la tierra. </p>
+  </div>
+
+  <!-- Tunel -->
+  <div class="tunel">
+    <div class="mina">
+      <p>ESTÁS LISTO PARA DISFRUTAR DE UN VIAJE</p>
+      <h1>Entre la luz y la oscuridad.</h1>
+      <button type="button" class="btn btn-outline-secondary">PRESIONA ACÁ</button>
+    </div>
+  </div>
+
+  <!-- Slide -->
+  <div class="slide">
+    <div class="foto"></div>
+    <div class="foto"></div>
+    <div class="foto"></div>
+  </div>
+
+  <footer class="text-center text-lg-start text-white" style="background-color: #333">
+    <!-- Copyright -->
+    <section class="p-3 pt-0">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-7 col-lg-8 text-center text-md-start">
+          <div class="p-3">
+            © 2023 Copyright:
+            <a class="text-white" href="#">LotaTravel</a>
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>  
+  </footer>
+</body>
+</html>
